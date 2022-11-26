@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ae88dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+nav a {
+    color: RGB(18 9 38);
+    margin: 0 20px 0 20px;
+}
+
+.portraits {
+    flex-direction: row;
+}
+
+.fifth .portraits p {
+ color: #ae88dd}
+
+ .fifth .portraits h3 {
+    color: purple;
+    background-color: #ae88dd;
+}
+
+body {
+    background-color: #bb93ec;
+}
