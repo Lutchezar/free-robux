@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+input{
+    background-color: white;
+}
+
+
 nav {
     background-color: #ae88dd;
     display: flex;
@@ -15,7 +20,7 @@ nav a {
     margin: 0 20px 0 20px;
 }
 
-.portraits {
+.fifth .portraits {
     flex-direction: row;
 }
 
@@ -29,4 +34,51 @@ nav a {
 
 body {
     background-color: #bb93ec;
+}
+
+.top3games .unitedtop img {
+    width: 300px;
+}
+
+.fifth .portraits img {
+    width: 70px;
+    height: 70px;;
+}
+
+.fifth .portraits{
+    display: flex;
+    flex-direction: row;
+
+}
+.fifth .portraits .person1{
+    padding: 0 20px 0 20px;
+}
+
+.fifth .portraits .person2{
+    padding: 0 20px 0 20px;
+}
+.fifth .portraits .person3{
+    padding: 0 20px 0 20px;
+}
+
+.top3games .unitedtop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ae88dd;
+}
+.top3games h3{
+    order: ;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 25px 0;
+}
+
+.download-games .wrapper{
+    align-items: ;
+    background-color: #ae88dd;
+}
+button{
+    width: 50px;
+    height: 30px;
 }
